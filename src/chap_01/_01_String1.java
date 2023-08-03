@@ -13,6 +13,9 @@ public class _01_String1 {
         //소문자 변환
         System.out.println(s.toLowerCase());
         //포함관계
-        System.out.println(s.contains("Java"));
+        System.out.println(s.contains("Java"));//포함된다면 true , 포함되지 않는다면 false
+        System.out.println(s.contains("C#"));//false
+        System.out.println(s.indexOf("Java"));//위치 정보 확인
+
     }
 }
